@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./createcv.component.css']
 })
 export class CreatecvComponent implements OnInit {
+  nom: string;
+  prenom: string;
 
   constructor() { }
 

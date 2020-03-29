@@ -1,1 +1,16 @@
-<p>Test  projet générateur cv</p>
+<p xmlns:margin-left="http://www.w3.org/1999/xhtml"></p>
+<div class="container">
+    <div class="border border-success">
+      <div class="card-header bg-primary">Mes Informations</div>
+      <div class="card-body">
+        <span  class="ui-float-label">
+          <label for="float-input">Prénom(s)</label><br>
+          <input id="float-input" required type="text" size="90" [(ngModel)]="prenom" pInputText>
+        </span><br>
+        <span class="ui-float-label">
+          <label for="float-input1">Nom de famille</label><br>
+          <input id="float-input1" required type="text" size="90" [(ngModel)]="nom" pInputText>
+        </span><br>
+      </div>
+    </div>
+</div>
